@@ -1,0 +1,27 @@
+avg_velocity_km_s: 7.476396804890307
+duration_days: 14
+num_satellites: 9
+num_timesteps: 20161
+satellite_names:
+- elk-1-rf
+- elk-2-rf
+- elk-3-rf
+- elk-1-sar
+- elk-2-sar
+- elk-3-sar
+- elk-1-eo
+- elk-2-eo
+- elk-3-eo
+satellite_types:
+- RF
+- RF
+- RF
+- SAR
+- SAR
+- SAR
+- EO
+- EO
+- EO
+start_time: '2025-07-16T03:55:42+00:00'
+time_step_seconds: 60
+total_records: 181449

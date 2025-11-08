@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ELK Satellite Coverage - 3D Visualization</title>
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.111/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.111/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <style>
+        html, body, #cesiumContainer {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(42, 42, 42, 0.9);
+            padding: 15px;
+            border-radius: 5px;
+            color: white;
+            font-family: sans-serif;
+            font-size: 14px;
+            max-width: 350px;
+            z-index: 1000;
+        }
+        #info h3 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        #info ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        #info li {
+            margin: 3px 0;
+        }
+        .sensor-rf { color: #FFA500; }
+        .sensor-sar { color: #00FF00; }
+        .sensor-eo { color: #00FFFF; }
+        .vessel { color: #FF0000; }
+    </style>
+</head>
+<body>
+    <div id="cesiumContainer"></div>
+    <div id="info">
+        <h3>ELK Satellite Coverage</h3>
+        <p><strong>Dark Vessels Detection</strong><br>
+        July 18, 2025 | 04:00-09:00 UTC</p>
+
+        <p><strong>Satellites (9 total):</strong></p>
+        <ul>
+            <li class="sensor-rf">● RF (3) - 800km swath - Orange</li>
+            <li class="sensor-sar">● SAR (3) - 700km swath - Green</li>
+            <li class="sensor-eo">● EO (3) - 500km swath - Cyan</li>
+        </ul>
+
+        <p><strong>Vessels:</strong></p>
+        <ul>
+            <li class="vessel">✕ AN SAN 1 (Dark)</li>
+            <li class="vessel">✕ Chinese Supply Tanker (Dark)</li>
+        </ul>
+
+        <p><strong>Detections: 20 total</strong><br>
+        16 RF, 2 SAR, 2 EO</p>
+
+        <p style="font-size: 11px; margin-top: 10px; opacity: 0.8;">
+        <strong>Controls:</strong><br>
+        • Left drag: Rotate<br>
+        • Right drag: Pan<br>
+        • Scroll: Zoom<br>
+        • Middle drag: Rotate around center<br>
+        • Use timeline at bottom to control time
+        </p>
+    </div>
+
+    <script>
+        // Use OSM basemap instead of Cesium Ion
+        const viewer = new Cesium.Viewer('cesiumContainer', {
+            imageryProvider: new Cesium.OpenStreetMapImageryProvider({
+                url: 'https://a.tile.openstreetmap.org/'
+            }),
+            baseLayerPicker: false,
+            timeline: true,
+            animation: true,
+            geocoder: false,
+            homeButton: true,
+            sceneModePicker: true,
+            navigationHelpButton: true,
+            fullscreenButton: true
+        });
+
+        // Load CZML data
+        const czmlDataSource = new Cesium.CzmlDataSource();
+
+        czmlDataSource.load('outputs/satellite_coverage.czml').then(function(dataSource) {
+            viewer.dataSources.add(dataSource);
+
+            console.log('CZML loaded successfully');
+            console.log('Entities:', dataSource.entities.values.length);
+
+            // Set initial camera view over East China Sea
+            viewer.camera.flyTo({
+                destination: Cesium.Cartesian3.fromDegrees(126.0, 32.5, 2000000), // 2000km altitude
+                orientation: {
+                    heading: Cesium.Math.toRadians(0),
+                    pitch: Cesium.Math.toRadians(-45),
+                    roll: 0.0
+                },
+                duration: 3
+            });
+
+            // Enable lighting
+            viewer.scene.globe.enableLighting = true;
+
+            // Start animation
+            viewer.clock.shouldAnimate = true;
+            viewer.clock.multiplier = 60; // 60x speed
+
+        }).catch(function(error) {
+            console.error('Error loading CZML:', error);
+            alert('Error loading satellite data. Make sure to run export_cesium_czml.py first!\n\nError: ' + error);
+        });
+
+        // Enhanced visuals
+        viewer.scene.globe.depthTestAgainstTerrain = false;
+        viewer.scene.skyAtmosphere.show = true;
+        viewer.scene.sun.show = true;
+        viewer.scene.moon.show = true;
+
+        // Add starfield
+        viewer.scene.skyBox.show = true;
+    </script>
+</body>
+</html>

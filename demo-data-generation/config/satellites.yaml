@@ -1,0 +1,189 @@
+# ELK Satellite Constellation Configuration
+# Generic satellite names with realistic orbital elements
+
+constellation:
+  # SAR Satellites (based on Sentinel-1A/B orbital elements)
+  # Sun-synchronous LEO, 693km altitude, 98.18° inclination
+  sar:
+    - name: elk-1-sar
+      sensor_type: SAR
+      altitude_km: 693
+      orbital_elements:
+        semi_major_axis_m: 7064140  # RE + 693km
+        eccentricity: 0.0001
+        inclination_deg: 98.18
+        raan_deg: 0.0
+        arg_perigee_deg: 90.0
+        mean_anomaly_deg: 0.0
+      specs:
+        swath_km: 250
+        resolution_m: 5.0
+        polarization: VV
+        all_weather: true
+
+    - name: elk-2-sar
+      sensor_type: SAR
+      altitude_km: 693
+      orbital_elements:
+        semi_major_axis_m: 7064140
+        eccentricity: 0.0001
+        inclination_deg: 98.18
+        raan_deg: 120.0  # Phased 120° for coverage
+        arg_perigee_deg: 90.0
+        mean_anomaly_deg: 0.0
+      specs:
+        swath_km: 250
+        resolution_m: 5.0
+        polarization: VV
+        all_weather: true
+
+    - name: elk-3-sar
+      sensor_type: SAR
+      altitude_km: 693
+      orbital_elements:
+        semi_major_axis_m: 7064140
+        eccentricity: 0.0001
+        inclination_deg: 98.18
+        raan_deg: 240.0  # Phased 240° for coverage
+        arg_perigee_deg: 90.0
+        mean_anomaly_deg: 0.0
+      specs:
+        swath_km: 250
+        resolution_m: 5.0
+        polarization: VV
+        all_weather: true
+
+  # RF Satellites (based on HawkEye 360 Cluster 1 orbital elements)
+  # LEO, 575km altitude, 45° inclination
+  rf:
+    - name: elk-1-rf
+      sensor_type: RF
+      altitude_km: 575
+      orbital_elements:
+        semi_major_axis_m: 6946140  # RE + 575km
+        eccentricity: 0.0005
+        inclination_deg: 45.0
+        raan_deg: 0.0
+        arg_perigee_deg: 0.0
+        mean_anomaly_deg: 0.0
+      specs:
+        swath_km: 1000
+        frequency_range_mhz: [144, 10500]
+        signal_types: [X-band radar, VHF communications]
+        all_weather: true
+
+    - name: elk-2-rf
+      sensor_type: RF
+      altitude_km: 575
+      orbital_elements:
+        semi_major_axis_m: 6946140
+        eccentricity: 0.0005
+        inclination_deg: 45.0
+        raan_deg: 120.0
+        arg_perigee_deg: 0.0
+        mean_anomaly_deg: 0.0
+      specs:
+        swath_km: 1000
+        frequency_range_mhz: [144, 10500]
+        signal_types: [X-band radar, VHF communications]
+        all_weather: true
+
+    - name: elk-3-rf
+      sensor_type: RF
+      altitude_km: 575
+      orbital_elements:
+        semi_major_axis_m: 6946140
+        eccentricity: 0.0005
+        inclination_deg: 45.0
+        raan_deg: 240.0
+        arg_perigee_deg: 0.0
+        mean_anomaly_deg: 0.0
+      specs:
+        swath_km: 1000
+        frequency_range_mhz: [144, 10500]
+        signal_types: [X-band radar, VHF communications]
+        all_weather: true
+
+  # EO Satellites (based on WorldView-3 orbital elements)
+  # Sun-synchronous LEO, 617km altitude, 97.96° inclination
+  # RAAN adjusted to ensure daytime passes over STS location on July 18-19
+  eo:
+    - name: elk-1-eo
+      sensor_type: EO
+      altitude_km: 617
+      orbital_elements:
+        semi_major_axis_m: 6988140  # RE + 617km
+        eccentricity: 0.000134
+        inclination_deg: 97.963
+        raan_deg: 195.0  # Adjusted for July 18-19 daytime coverage
+        arg_perigee_deg: 90.0
+        mean_anomaly_deg: 0.0
+      specs:
+        swath_km: 13.1
+        resolution_m: 0.31
+        bands: [panchromatic, multispectral]
+        all_weather: false
+        clear_weather_required: true
+
+    - name: elk-2-eo
+      sensor_type: EO
+      altitude_km: 617
+      orbital_elements:
+        semi_major_axis_m: 6988140
+        eccentricity: 0.000134
+        inclination_deg: 97.963
+        raan_deg: 75.0  # Adjusted for coverage
+        arg_perigee_deg: 90.0
+        mean_anomaly_deg: 0.0
+      specs:
+        swath_km: 13.1
+        resolution_m: 0.31
+        bands: [panchromatic, multispectral]
+        all_weather: false
+        clear_weather_required: true
+
+    - name: elk-3-eo
+      sensor_type: EO
+      altitude_km: 617
+      orbital_elements:
+        semi_major_axis_m: 6988140
+        eccentricity: 0.000134
+        inclination_deg: 97.963
+        raan_deg: 315.0  # Adjusted for coverage
+        arg_perigee_deg: 90.0
+        mean_anomaly_deg: 0.0
+      specs:
+        swath_km: 13.1
+        resolution_m: 0.31
+        bands: [panchromatic, multispectral]
+        all_weather: false
+        clear_weather_required: true
+
+# Demo Location (STS transfer site)
+ground_station:
+  name: STS_Transfer_Site
+  latitude: 32.5
+  longitude: 126.0
+  altitude_m: 0
+  description: East China Sea illicit transfer location
+
+# Propagation Settings (for orbital mechanics - covers full period to find all passes)
+propagation:
+  start_time: "2025-07-16T03:55:42Z"
+  duration_days: 14
+  time_step_seconds: 60
+  min_elevation_deg: 30.0
+  backend: cpu  # Use tensorgator CPU backend
+
+# Simulation Settings (for vessel tracks and detection events - dark period only)
+simulation:
+  start_time: "2025-07-17T20:45:00Z"  # Dark period begins
+  end_time: "2025-07-20T07:00:00Z"     # Dark period ends
+  duration_hours: 58.25
+  time_step_seconds: 60                # 1 minute intervals
+  sts_transfer_start: "2025-07-18T00:00:00Z"  # STS transfer begins
+  sts_transfer_duration_hours: 6
+
+# Constants
+constants:
+  earth_radius_m: 6371000

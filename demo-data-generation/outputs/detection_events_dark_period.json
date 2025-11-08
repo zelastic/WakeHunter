@@ -1,0 +1,2589 @@
+{
+  "metadata": {
+    "simulation_period": {
+      "start": "2025-07-17T20:45:00Z",
+      "end": "2025-07-20T07:00:00Z",
+      "duration_hours": 58.25
+    },
+    "total_detections": 96,
+    "by_sensor": {
+      "RF": 44,
+      "SAR": 24,
+      "EO": 28
+    }
+  },
+  "detections": [
+    {
+      "detection_id": "sar_elk-1-sar_2025-07-18T00:33:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T00:33:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-1-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 32.50056806954645,
+      "vessel_lon": 125.9986240744131,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 197.60261156568032,
+        "heading_deg": 0.0
+      },
+      "weather": "cloudy",
+      "cloud_cover_pct": 80,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-1-sar_2025-07-18T00:33:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T00:33:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-1-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 32.501482885762684,
+      "vessel_lon": 126.00209052374007,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 100.8449938931452,
+        "heading_deg": 0.0
+      },
+      "weather": "cloudy",
+      "cloud_cover_pct": 80,
+      "tasking_reason": "RF anomaly detected"
+    },
+    {
+      "detection_id": "sar_elk-1-sar_2025-07-19T01:12:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T01:12:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-1-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 300,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 29.757460371713996,
+      "vessel_lon": 129.1139900360543,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 151.13804309875422,
+        "heading_deg": 135.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-1-sar_2025-07-19T01:12:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T01:12:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-1-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 300,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 35.16107893248459,
+      "vessel_lon": 129.30692516838653,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 116.1965357109033,
+        "heading_deg": 45.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-1-sar_2025-07-19T12:11:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T12:11:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-1-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 300,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 28.151227748011,
+      "vessel_lon": 130.82413659115792,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 187.8427314039187,
+        "heading_deg": 135.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-1-sar_2025-07-19T12:11:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T12:11:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-1-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 300,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 36.64635593499598,
+      "vessel_lon": 131.30266692747003,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 100.67448873371774,
+        "heading_deg": 45.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-2-sar_2025-07-18T08:46:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T08:46:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-2-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 32.11761651416276,
+      "vessel_lon": 126.4505280034443,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 174.17769176002506,
+        "heading_deg": 135.0
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-2-sar_2025-07-18T08:46:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T08:46:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-2-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 32.8807644609407,
+      "vessel_lon": 126.45436722920958,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 123.20510311309009,
+        "heading_deg": 45.0
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_reason": "RF anomaly detected"
+    },
+    {
+      "detection_id": "sar_elk-2-sar_2025-07-18T19:45:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T19:45:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-2-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 60,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 30.54619230729532,
+      "vessel_lon": 128.2451547344331,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 153.67156757870606,
+        "heading_deg": 135.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-2-sar_2025-07-18T19:45:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T19:45:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-2-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 60,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 34.412184853878635,
+      "vessel_lon": 128.3437958279411,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 129.90744589070502,
+        "heading_deg": 45.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-2-sar_2025-07-19T09:24:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T09:24:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-2-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 28.56029917676237,
+      "vessel_lon": 130.3957457157755,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 155.1138550414136,
+        "heading_deg": 135.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-2-sar_2025-07-19T09:24:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T09:24:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-2-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 36.27311296016744,
+      "vessel_lon": 130.78978922916536,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 147.08383662051662,
+        "heading_deg": 45.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-2-sar_2025-07-19T20:24:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T20:24:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-2-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 300,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 26.9360191761448,
+      "vessel_lon": 132.07000042913063,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 180.84475197370793,
+        "heading_deg": 135.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-2-sar_2025-07-19T20:24:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T20:24:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-2-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 300,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 37.735056182219594,
+      "vessel_lon": 132.84611024064557,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 122.57429849943799,
+        "heading_deg": 45.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-3-sar_2025-07-18T04:57:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T04:57:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-3-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 32.498545608770264,
+      "vessel_lon": 125.99878540119944,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 174.44533091331675,
+        "heading_deg": 0.0
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-3-sar_2025-07-18T04:57:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T04:57:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-3-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 32.49778747511708,
+      "vessel_lon": 125.99989087871631,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 142.51916372298317,
+        "heading_deg": 0.0
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_reason": "RF anomaly detected"
+    },
+    {
+      "detection_id": "sar_elk-3-sar_2025-07-18T16:59:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T16:59:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-3-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 300,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 30.944363103515812,
+      "vessel_lon": 127.79870443828848,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 182.10607335687442,
+        "heading_deg": 135.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-3-sar_2025-07-18T16:59:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T16:59:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-3-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 300,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 34.02915381864038,
+      "vessel_lon": 127.86148056913817,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 124.79853404061542,
+        "heading_deg": 45.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-3-sar_2025-07-19T03:58:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T03:58:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-3-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 29.35490926734002,
+      "vessel_lon": 129.54980441339902,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 156.97376322011542,
+        "heading_deg": 135.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-3-sar_2025-07-19T03:58:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T03:58:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-3-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 35.53830313627945,
+      "vessel_lon": 129.80262751642834,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 133.10679225879855,
+        "heading_deg": 45.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-3-sar_2025-07-19T17:37:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T17:37:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-3-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 27.348900932299017,
+      "vessel_lon": 131.6510499457129,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 188.51899221455005,
+        "heading_deg": 135.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-3-sar_2025-07-19T17:37:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T17:37:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-3-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 37.368517813597,
+      "vessel_lon": 132.31828206746664,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 110.22270764661862,
+        "heading_deg": 45.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-3-sar_2025-07-20T04:36:42+00:00Z_477105700",
+      "timestamp": "2025-07-20T04:36:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-3-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 25.71260122248782,
+      "vessel_lon": 133.2867325774021,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 169.85601411695887,
+        "heading_deg": 135.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "sar_elk-3-sar_2025-07-20T04:36:42+00:00Z_412999999",
+      "timestamp": "2025-07-20T04:36:42+00:00Z",
+      "sensor_type": "SAR",
+      "satellite_id": "elk-3-sar",
+      "satellite_type": "SAR",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 38.80089173710849,
+      "vessel_lon": 134.43190609011117,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.92,
+      "image_metadata": {
+        "resolution_m": 3.0,
+        "polarization": "VV",
+        "vessel_length_m": 119.8321043832218,
+        "heading_deg": 45.0
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Routine all-weather imaging"
+    },
+    {
+      "detection_id": "rf_elk-1-rf_2025-07-17T22:05:42+00:00Z_477105700",
+      "timestamp": "2025-07-17T22:05:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-1-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 31.508365421849998,
+      "vessel_lon": 125.0082439790241,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -78.11148167245213,
+        "detected": true
+      },
+      "weather": "cloudy",
+      "cloud_cover_pct": 80,
+      "tasking_triggered": {
+        "sar": true,
+        "eo": false
+      }
+    },
+    {
+      "detection_id": "rf_elk-1-rf_2025-07-17T22:05:42+00:00Z_412999999",
+      "timestamp": "2025-07-17T22:05:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-1-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 33.16200708447432,
+      "vessel_lon": 126.65856438239237,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.75,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -77.00052614242887,
+        "detected": false
+      },
+      "weather": "cloudy",
+      "cloud_cover_pct": 80,
+      "tasking_triggered": {
+        "sar": true,
+        "eo": false
+      }
+    },
+    {
+      "detection_id": "rf_elk-1-rf_2025-07-18T13:38:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T13:38:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-1-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 31.424411395369464,
+      "vessel_lon": 127.25312537832689,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -61.92213177106959,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-1-rf_2025-07-18T13:38:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T13:38:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-1-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 33.56286962170119,
+      "vessel_lon": 127.28328106935099,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -69.45333943135273,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-1-rf_2025-07-18T15:19:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T15:19:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-1-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 31.183480747377523,
+      "vessel_lon": 127.52796371081625,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -72.48814981834558,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-1-rf_2025-07-18T15:19:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T15:19:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-1-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 33.79750877524502,
+      "vessel_lon": 127.57303172424645,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -77.43114577597727,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-1-rf_2025-07-18T20:23:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T20:23:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-1-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 30.454831037690305,
+      "vessel_lon": 128.34683757652775,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -62.33277674662161,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-1-rf_2025-07-18T20:23:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T20:23:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-1-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 34.49959956683575,
+      "vessel_lon": 128.4548250553088,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -67.26974821774616,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-1-rf_2025-07-19T13:37:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T13:37:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-1-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 27.940050353973866,
+      "vessel_lon": 131.0434665787116,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -74.26455867472153,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-1-rf_2025-07-19T13:37:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T13:37:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-1-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 36.83770218889061,
+      "vessel_lon": 131.56872086509742,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -60.03904670648285,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-1-rf_2025-07-19T20:23:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T20:23:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-1-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 26.93849520785706,
+      "vessel_lon": 132.0675009225384,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -68.43875806654967,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-1-rf_2025-07-19T20:23:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T20:23:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-1-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 37.732868360795166,
+      "vessel_lon": 132.84293409929427,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -77.11652240263838,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-17T23:19:42+00:00Z_477105700",
+      "timestamp": "2025-07-17T23:19:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 32.12592147399256,
+      "vessel_lon": 125.6224381391167,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -70.01803551695218,
+        "detected": true
+      },
+      "weather": "cloudy",
+      "cloud_cover_pct": 80,
+      "tasking_triggered": {
+        "sar": true,
+        "eo": false
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-17T23:19:42+00:00Z_412999999",
+      "timestamp": "2025-07-17T23:19:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 32.75074360580764,
+      "vessel_lon": 126.24788405840695,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.75,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -73.82071179732232,
+        "detected": false
+      },
+      "weather": "cloudy",
+      "cloud_cover_pct": 80,
+      "tasking_triggered": {
+        "sar": true,
+        "eo": false
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-18T04:24:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T04:24:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 32.500226253758214,
+      "vessel_lon": 125.9978749332581,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -70.12475677557978,
+        "detected": true
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": false
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-18T04:24:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T04:24:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 32.49812867440529,
+      "vessel_lon": 125.99944845883083,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.75,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -67.42039593680889,
+        "detected": false
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": false
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-18T06:04:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T06:04:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 120,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 32.50000000000001,
+      "vessel_lon": 126.0,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -65.58018499343308,
+        "detected": true
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": false
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-18T06:04:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T06:04:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 120,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 32.50000000000001,
+      "vessel_lon": 126.0,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.75,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -63.01862215002013,
+        "detected": false
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": false
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-18T21:38:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T21:38:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 30.274282210194485,
+      "vessel_lon": 128.54696899371615,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -60.990418207409604,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-18T21:38:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T21:38:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 34.671832748950266,
+      "vessel_lon": 128.67464622768568,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -71.32875766821378,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-18T23:18:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T23:18:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 120,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 30.033079307242062,
+      "vessel_lon": 128.812667870939,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -63.93207088850493,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-18T23:18:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T23:18:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 120,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 34.90085992724293,
+      "vessel_lon": 128.96916575780108,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -75.75106354566402,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-19T04:23:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T04:23:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 29.29416150877388,
+      "vessel_lon": 129.61513958204677,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -75.96865014688773,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-19T04:23:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T04:23:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 35.59493777598935,
+      "vessel_lon": 129.87768420345665,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -63.75726784465116,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-19T21:37:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T21:37:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 26.755150355180152,
+      "vessel_lon": 132.25216887142324,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -63.363593439742424,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-19T21:37:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T21:37:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 37.89453619550008,
+      "vessel_lon": 133.07847677105372,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -70.54472944563845,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-20T04:22:42+00:00Z_477105700",
+      "timestamp": "2025-07-20T04:22:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 25.747554229476872,
+      "vessel_lon": 133.2524618070838,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -60.87838799764189,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-2-rf_2025-07-20T04:22:42+00:00Z_412999999",
+      "timestamp": "2025-07-20T04:22:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-2-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 38.77086124522999,
+      "vessel_lon": 134.3861336195897,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -66.51160089947214,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-18T05:38:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T05:38:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 60,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 32.497032024943614,
+      "vessel_lon": 126.00223887145683,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -75.38980648775603,
+        "detected": true
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": false
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-18T05:38:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T05:38:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 60,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 32.50191491916086,
+      "vessel_lon": 125.99950514054,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.75,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -67.22509467827815,
+        "detected": false
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": false
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-18T07:19:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T07:19:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 32.32316960616618,
+      "vessel_lon": 126.20905064628171,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -73.83129937222581,
+        "detected": true
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": false
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-18T07:19:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T07:19:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 32.67648339134441,
+      "vessel_lon": 126.20987351604713,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.75,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -64.80059557756158,
+        "detected": false
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": false
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-18T12:24:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T12:24:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 31.60056111047638,
+      "vessel_lon": 127.05086203278746,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -69.3820652185313,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-18T12:24:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T12:24:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 33.390529095395635,
+      "vessel_lon": 127.07198766424648,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -65.44852023971859,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-18T14:04:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T14:04:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 120,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 31.362445649790438,
+      "vessel_lon": 127.32401031612716,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -65.16770951950595,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-18T14:04:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T14:04:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 120,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 33.62333633509672,
+      "vessel_lon": 127.35771932492315,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -78.44670611281789,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-19T05:37:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T05:37:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 29.11416248478152,
+      "vessel_lon": 129.80807722069892,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -78.15710945497247,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-19T05:37:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T05:37:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 35.76230255883539,
+      "vessel_lon": 130.10047575139626,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -79.79168760230137,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-19T07:18:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T07:18:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 120,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 28.86804458414608,
+      "vessel_lon": 130.07032377566878,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -71.3449699512275,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-19T07:18:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T07:18:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 120,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 35.99006621162455,
+      "vessel_lon": 130.40607175371028,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -73.98179077189138,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-19T12:23:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T12:23:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 28.12178208267669,
+      "vessel_lon": 130.85479255172154,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -69.79497382430634,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-19T12:23:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T12:23:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 36.673090914075274,
+      "vessel_lon": 131.33971117861574,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -74.96645215407698,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-20T05:37:42+00:00Z_477105700",
+      "timestamp": "2025-07-20T05:37:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 25.560212739473293,
+      "vessel_lon": 133.43582077436122,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -70.78346722069051,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "rf_elk-3-rf_2025-07-20T05:37:42+00:00Z_412999999",
+      "timestamp": "2025-07-20T05:37:42+00:00Z",
+      "sensor_type": "RF",
+      "satellite_id": "elk-3-rf",
+      "satellite_type": "RF",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 38.931529849359535,
+      "vessel_lon": 134.6317942607548,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.95,
+      "rf_signature": {
+        "frequency_mhz": 162.0,
+        "signal_strength_db": -64.49342903517348,
+        "detected": true
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_triggered": {
+        "sar": false,
+        "eo": true
+      }
+    },
+    {
+      "detection_id": "eo_elk-1-eo_2025-07-18T00:56:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T00:56:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-1-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 120,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 32.502158657533556,
+      "vessel_lon": 125.99741341965247,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.0,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": false,
+        "visual_features": []
+      },
+      "weather": "cloudy",
+      "cloud_cover_pct": 80,
+      "tasking_reason": "Cloud cover too high"
+    },
+    {
+      "detection_id": "eo_elk-1-eo_2025-07-18T00:56:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T00:56:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-1-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 120,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 32.49829381285066,
+      "vessel_lon": 125.9982863570548,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.0,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": false,
+        "visual_features": []
+      },
+      "weather": "cloudy",
+      "cloud_cover_pct": 80,
+      "tasking_reason": "Cloud cover too high"
+    },
+    {
+      "detection_id": "eo_elk-1-eo_2025-07-18T14:22:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T14:22:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-1-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 31.319523478259118,
+      "vessel_lon": 127.37302976105329,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-1-eo_2025-07-18T14:22:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T14:22:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-1-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 33.665171757329986,
+      "vessel_lon": 127.40931470779515,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-1-eo_2025-07-19T01:11:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T01:11:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-1-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 29.759881050426284,
+      "vessel_lon": 129.11135408825774,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-1-eo_2025-07-19T01:11:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T01:11:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-1-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 35.158800389045155,
+      "vessel_lon": 129.30395299729298,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-1-eo_2025-07-19T14:38:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T14:38:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-1-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 27.79005161954431,
+      "vessel_lon": 131.19851805848847,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-1-eo_2025-07-19T14:38:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T14:38:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-1-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 36.973063785166104,
+      "vessel_lon": 131.75824060570565,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-1-eo_2025-07-20T01:26:42+00:00Z_477105700",
+      "timestamp": "2025-07-20T01:26:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-1-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 26.186273146623993,
+      "vessel_lon": 132.8198958869597,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-1-eo_2025-07-20T01:26:42+00:00Z_412999999",
+      "timestamp": "2025-07-20T01:26:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-1-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 38.39182457335047,
+      "vessel_lon": 133.8139786218625,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-2-eo_2025-07-18T06:17:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T06:17:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-2-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 32.46937415489015,
+      "vessel_lon": 126.03629419726744,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-2-eo_2025-07-18T06:17:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T06:17:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-2-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 32.53061541969818,
+      "vessel_lon": 126.0363189198564,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "partly_cloudy",
+      "cloud_cover_pct": 40,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-2-eo_2025-07-18T17:06:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T17:06:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-2-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 30.92760375001486,
+      "vessel_lon": 127.8176054267554,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-2-eo_2025-07-18T17:06:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T17:06:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-2-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 34.04534372297765,
+      "vessel_lon": 127.88173083892664,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-2-eo_2025-07-19T06:33:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T06:33:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-2-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 28.977763911261345,
+      "vessel_lon": 129.95363541461822,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-2-eo_2025-07-19T06:33:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T06:33:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-2-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 35.888682981906946,
+      "vessel_lon": 130.26969802921494,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-2-eo_2025-07-19T17:21:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T17:21:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-2-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 27.3883928559572,
+      "vessel_lon": 131.6107477674773,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-2-eo_2025-07-19T17:21:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T17:21:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-2-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 37.3332775915953,
+      "vessel_lon": 132.26798333851585,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-3-eo_2025-07-17T22:12:42+00:00Z_477105700",
+      "timestamp": "2025-07-17T22:12:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-3-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 31.56690855840347,
+      "vessel_lon": 125.06599319044132,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.0,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": false,
+        "visual_features": []
+      },
+      "weather": "cloudy",
+      "cloud_cover_pct": 80,
+      "tasking_reason": "Cloud cover too high"
+    },
+    {
+      "detection_id": "eo_elk-3-eo_2025-07-17T22:12:42+00:00Z_412999999",
+      "timestamp": "2025-07-17T22:12:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-3-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 33.1231615174111,
+      "vessel_lon": 126.61955207686324,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.0,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": false,
+        "visual_features": []
+      },
+      "weather": "cloudy",
+      "cloud_cover_pct": 80,
+      "tasking_reason": "Cloud cover too high"
+    },
+    {
+      "detection_id": "eo_elk-3-eo_2025-07-18T09:01:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T09:01:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-3-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 32.082130057630025,
+      "vessel_lon": 126.49205191866102,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-3-eo_2025-07-18T09:01:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T09:01:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-3-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 32.91593720277499,
+      "vessel_lon": 126.49663504045864,
+      "vessel_ais_on": false,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-3-eo_2025-07-18T22:28:42+00:00Z_477105700",
+      "timestamp": "2025-07-18T22:28:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-3-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 30.153747655350806,
+      "vessel_lon": 128.67998088110554,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-3-eo_2025-07-18T22:28:42+00:00Z_412999999",
+      "timestamp": "2025-07-18T22:28:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-3-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 180,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 34.78643500850574,
+      "vessel_lon": 128.82170153889265,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-3-eo_2025-07-19T09:16:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T09:16:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-3-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 28.579861658974362,
+      "vessel_lon": 130.3751408065133,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-3-eo_2025-07-19T09:16:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T09:16:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-3-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 240,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 36.25517821615561,
+      "vessel_lon": 130.765343767799,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-3-eo_2025-07-19T22:43:42+00:00Z_477105700",
+      "timestamp": "2025-07-19T22:43:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-3-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 60,
+      "vessel_mmsi": 477105700,
+      "vessel_name": "YUE CHI",
+      "vessel_lat": 26.591425279534622,
+      "vessel_lon": 132.4163703210477,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    },
+    {
+      "detection_id": "eo_elk-3-eo_2025-07-19T22:43:42+00:00Z_412999999",
+      "timestamp": "2025-07-19T22:43:42+00:00Z",
+      "sensor_type": "EO",
+      "satellite_id": "elk-3-eo",
+      "satellite_type": "EO",
+      "elevation_deg": 45.0,
+      "pass_duration_sec": 60,
+      "vessel_mmsi": 412999999,
+      "vessel_name": "SANCTIONED VESSEL",
+      "vessel_lat": 38.03832885695827,
+      "vessel_lon": 133.2894286355272,
+      "vessel_ais_on": true,
+      "detection_confidence": 0.98,
+      "image_metadata": {
+        "resolution_m": 0.31,
+        "bands": [
+          "panchromatic",
+          "multispectral"
+        ],
+        "vessel_visible": true,
+        "visual_features": [
+          "hull_visible",
+          "deck_equipment",
+          "transfer_equipment"
+        ]
+      },
+      "weather": "clear",
+      "cloud_cover_pct": 10,
+      "tasking_reason": "Visual confirmation of SAR detection"
+    }
+  ]
+}

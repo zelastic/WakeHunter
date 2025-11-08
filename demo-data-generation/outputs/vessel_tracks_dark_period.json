@@ -1,0 +1,28 @@
+{
+  "simulation_period": {
+    "start": "2025-07-17T20:45:00Z",
+    "end": "2025-07-20T07:00:00Z",
+    "duration_hours": 58.25
+  },
+  "vessels": [
+    {
+      "mmsi": 477105700,
+      "name": "YUE CHI",
+      "role": "supplier",
+      "position_count": 3496
+    },
+    {
+      "mmsi": 412999999,
+      "name": "SANCTIONED VESSEL",
+      "role": "receiver",
+      "position_count": 3496
+    }
+  ],
+  "sts_transfer_site": {
+    "name": "STS_Transfer_Site",
+    "lat": 32.5,
+    "lon": 126.0,
+    "radius_km": 2.0
+  },
+  "total_positions": 6992
+}

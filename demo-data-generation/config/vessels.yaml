@@ -1,0 +1,87 @@
+# Vessel Configuration for Dark Period STS Transfer Demo
+# Timeline: July 17 20:45 - July 20 07:00 UTC (58.25 hours)
+
+# Gold Standard Vessels (involved in STS transfer)
+gold_vessels:
+  - name: "YUE CHI"
+    mmsi: 477105700
+    imo: 9322451
+    vessel_type: "Tanker"
+    flag: "Hong Kong"
+    role: "supplier"  # Supplies fuel/cargo to sanctioned vessel
+    description: "Oil tanker involved in illicit ship-to-ship transfer"
+    start_location:
+      lat: 31.5
+      lon: 125.0
+      description: "Approaching from southwest"
+    sts_behavior:
+      approach_start: "2025-07-17T22:00:00Z"  # 1h 15m into dark period
+      arrival_at_sts: "2025-07-18T00:00:00Z"  # STS transfer site
+      transfer_duration_hours: 6
+      departure: "2025-07-18T06:00:00Z"
+      escape_heading_deg: 135  # Southeast toward international waters
+
+  - name: "SANCTIONED VESSEL"
+    mmsi: 412999999  # Fake MMSI (spoofed)
+    imo: null  # IMO turned off
+    vessel_type: "Cargo"
+    flag: "Unknown"
+    role: "receiver"  # Receives fuel/cargo
+    description: "Sanctioned vessel under UN watch list"
+    start_location:
+      lat: 33.5
+      lon: 127.0
+      description: "Approaching from northeast"
+    sts_behavior:
+      approach_start: "2025-07-17T21:00:00Z"  # 15m into dark period
+      arrival_at_sts: "2025-07-18T00:00:00Z"  # STS transfer site
+      transfer_duration_hours: 6
+      departure: "2025-07-18T06:00:00Z"
+      escape_heading_deg: 45  # Northeast toward North Korea
+    dark_ship_behavior:
+      ais_spoofing: true
+      ais_off_periods:
+        - start: "2025-07-17T20:45:00Z"
+          end: "2025-07-18T12:00:00Z"  # AIS off during approach and transfer
+
+# STS Transfer Site
+sts_site:
+  name: "STS_Transfer_Site"
+  lat: 32.5
+  lon: 126.0
+  radius_km: 2.0  # Vessels loiter within 2km during transfer
+
+# Background Vessels (normal traffic to provide context)
+background_vessels:
+  count: 498
+  types:
+    - type: "Cargo"
+      percentage: 40
+      behavior: "transit"  # Normal shipping lanes
+    - type: "Tanker"
+      percentage: 25
+      behavior: "transit"
+    - type: "Fishing"
+      percentage: 20
+      behavior: "loiter"  # Fishing vessels loiter in area
+    - type: "Container"
+      percentage: 10
+      behavior: "transit"
+    - type: "Passenger"
+      percentage: 5
+      behavior: "transit"
+  generation:
+    # Distribute vessels across East China Sea region
+    bounds:
+      min_lat: 25.0
+      max_lat: 40.0
+      min_lon: 120.0
+      max_lon: 135.0
+    # Exclude STS transfer site
+    exclusion_zones:
+      - lat: 32.5
+        lon: 126.0
+        radius_km: 50  # Keep background vessels away from STS site
+    # Use realistic shipping lanes and fishing grounds
+    use_density_map: true
+    density_map_path: "/Users/zski/PycharmProjects/ElasticShipVision/data/ShipDensity_OceanOnly.tif"
